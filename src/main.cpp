@@ -14,8 +14,8 @@
 #define USB_BAUD_RATE 921600
 
 // TODO: User should pass these values instead of hardcoding it here
-#define SSID "WIFI_NETWORK_NAME"
-#define PASSWORD "WIFI_NETWORK_PASSWORD"
+#define SSID "gregandgrun"
+#define PASSWORD "N1epam1etam"
 
 void setup() {
   Serial.begin(USB_BAUD_RATE);
