@@ -1,7 +1,11 @@
+# Builds
+*.bin
+*.elf
+*.map
 # Prerequisites
 *.d
 
-# Compiled Object files
+# Compileds Object files
 *.slo
 *.lo
 *.o
@@ -30,3 +34,7 @@
 *.exe
 *.out
 *.app
+*.dblite
+*.bin
+*.elf
+*.map

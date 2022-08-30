@@ -10,7 +10,7 @@
 #include <http/http-server.h>
 
 // If you want to register a pin define it first as below:
-// #define PIN_NAME 4
+#define LED_RED_DIOD 25
 #define USB_BAUD_RATE 921600
 
 // TODO: User should pass these values instead of hardcoding it here
@@ -20,7 +20,7 @@
 void setup() {
   Serial.begin(USB_BAUD_RATE);
 
-  // registerPin()
+  registerPin(LED_RED_DIOD, OUTPUT);
   initWifi(SSID, PASSWORD);
   initHttpServer();
 }
