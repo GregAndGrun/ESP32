@@ -1,0 +1,1 @@
+void initWifi(char* ssid, char* pass);

@@ -1,0 +1,2 @@
+void initHttpServer();
+void handleClient();
