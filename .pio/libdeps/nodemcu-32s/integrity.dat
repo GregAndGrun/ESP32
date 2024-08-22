@@ -1,1 +1,4 @@
+adafruit/Adafruit GFX Library@^1.11.10
+madhephaestus/ESP32Servo@^3.0.5
 bblanchon/ArduinoJson@^6.19.4
+aki237/Adafruit_ESP32_SH1106@^1.0.2
